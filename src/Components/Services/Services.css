@@ -1,0 +1,42 @@
+.servicios {
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.servicios__title {
+    color: #F8FAFC;
+    width: auto;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    font-family: JosefinSans;
+    margin-bottom: 30px;
+}
+
+.servicios__card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 20px;
+}
+
+.servicios__card {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border: 2px solid #e0e0e0;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(253, 253, 253);
+}
+
