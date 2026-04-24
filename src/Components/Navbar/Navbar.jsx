@@ -57,9 +57,7 @@ export default function Navbar() {
             Sobre mí
           </a>
 
-          <a href="#contacto" className="navbar__cta">
-            Hablemos
-          </a>
+         
         </div>
 
         {/* Burger mobile */}
@@ -93,13 +91,6 @@ export default function Navbar() {
           Sobre mí
         </a>
 
-        <a
-          href="#contacto"
-          className="mobile-cta"
-          onClick={closeMenu}
-        >
-          Hablemos
-        </a>
       </div>
 
     </header>

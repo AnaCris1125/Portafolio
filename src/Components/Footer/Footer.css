@@ -1,4 +1,131 @@
 .footer {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  padding: 0;
+
+}
+
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 130px;
+  
+
+}
+
+.footer__container-list {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin: 10px auto 0;
+
+}
+
+.footer__icono-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.icono__img {
+  width: 28px;
+  height: 28px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+
+.footer__description {
+  position: relative;
+  font-family: Roboto Slab;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: transparent;
+  text-decoration: none;
+  top: -50px;
+  right: 5px;
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .footer {
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  
+  }
+  
+  
+  .footer__container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 130px;
+    
+  
+  }
+  
+  .footer__container-list {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin: 10px auto 0;
+  
+  }
+  
+  .footer__icono-circle {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .icono__img {
+    width: 40px;
+    height: 40px;
+  
+  }
+  
+  .footer__description {
+    position: relative;
+    font-family: Roboto Slab;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: transparent;
+    text-decoration: none;
+    top: -50px;
+    right: 5px;
+  
+  
+  }
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+.footer {
   max-width: 1440px;
   width: 100%;
   height: auto;
@@ -54,4 +181,5 @@
   right: 5px;
 
 
+}
 }

@@ -8,11 +8,11 @@
 .servicios__title {
     color: #F8FAFC;
     width: auto;
-    margin-bottom: 0;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     text-align: left;
     font-family: JosefinSans;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -27,9 +27,9 @@
 
 .servicios__card {
     position: relative;
-    max-width: 320px;
+    max-width: 282px;
     width: 100%;
-    height: auto;
+    height: 70px;
     border: 2px solid #e0e0e0;
     border-radius: 20px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
@@ -38,6 +38,17 @@
     align-items: center;
     text-align: center;
     color: rgb(253, 253, 253);
+}
+
+.servicios__card-title {
+    font-family: JosefinSans;
+    font-size: 14px;
+}
+
+.servicios__card-description {
+    font-family: JosefinSans;
+    font-size: 12px;
+
 }
 
 @media screen and (min-width: 768px) {

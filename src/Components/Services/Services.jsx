@@ -6,16 +6,16 @@ export default function Services() {
         <h2 className="servicios__title">Servicios</h2>
         <div className="servicios__card-list">
           <div className="servicios__card">
-            <h3 className="card__title">Desarrollo Web</h3>
-            <p className="card__description">Landing pages, webs para negocios, rediseños completos.</p>
+            <h3 className="servicios__card-title">Desarrollo Web</h3>
+            <p className="servicios__card-description">Landing pages, webs para negocios, rediseños completos.</p>
           </div>
           <div className="servicios__card">
-            <h3 className="card__title">Optimización UX</h3>
-            <p className="card__description">Mejor experiencia de usuario y responsive en móviles.</p>
+            <h3 className="servicios__card-title">Optimización UX</h3>
+            <p className="servicios__card-description">Mejor experiencia de usuario y responsive en móviles.</p>
           </div>
           <div className="servicios__card">
-            <h3 className="card__title">SEO & Velocidad</h3>
-            <p className="card__description">Webs rápidas, SEO básico y rendimiento óptimo.</p>
+            <h3 className="servicios__card-title">SEO & Velocidad</h3>
+            <p className="servicios__card-description">Webs rápidas, SEO básico y rendimiento óptimo.</p>
           </div>
         </div>
       </section>
