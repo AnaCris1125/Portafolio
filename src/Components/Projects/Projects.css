@@ -3,6 +3,7 @@
   width: 100%;
   height: auto;
   padding: 0;
+  align-items: center;
 
 }
 
@@ -10,7 +11,9 @@
 .projects__title {
   color: #F8FAFC;
   width: auto;
-  margin-bottom: 0;
+  margin-left: 16px;
+  margin-bottom: 10;
+  margin-top: 30px;
   font-size: 18px;
   font-weight: bold;
   text-align: left;
@@ -22,6 +25,7 @@
   width: auto;
   font-size: 14px;
   font-family: JosefinSans;
+  margin-left: 16px;
   margin-bottom: 30px;
 }
 
@@ -30,7 +34,7 @@
 .project__card-list {
   display: grid;
   grid-template-columns: 1fr;
-  justify-content: center;
+  justify-items: center;
   box-sizing: border-box;
   width: 100%;
   gap: 20px;
@@ -46,6 +50,7 @@
   border-radius: 20px;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   overflow: hidden;
+
 }
 
 
@@ -99,18 +104,19 @@
 }
 
 
+
+
 .project__button {
   display: block;
   padding: 6px 12px;
   font-family: JosefinSans;
   font-size: 15px;
-  width: 100px;
-  height: 28px;
+  width: 130px;
+  height: 30px;
   opacity: 1;
   cursor: pointer;
   color: #F8FAFC;
   border-radius: 10px;
-  text-align: center;
   text-decoration: none;
   background-color: #7C3AED;
   margin: 20px auto 20px;

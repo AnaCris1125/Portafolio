@@ -10,16 +10,16 @@
     width: auto;
     font-size: 18px;
     font-weight: bold;
-    text-align: left;
     font-family: JosefinSans;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 16px;
 }
 
 .servicios__card-list {
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
+    justify-items: center;
     box-sizing: border-box;
     width: 100%;
     gap: 20px;
@@ -33,10 +33,10 @@
     border: 2px solid #e0e0e0;
     border-radius: 20px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
-    overflow: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 10px;
     color: rgb(253, 253, 253);
 }
 
